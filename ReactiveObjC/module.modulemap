@@ -1,0 +1,4 @@
+module ReactiveObjC {
+    umbrella "."
+    export *
+}
