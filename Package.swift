@@ -40,7 +40,6 @@ let package = Package(
             publicHeadersPath: "ReactiveObjC",
             cSettings: [
                 .headerSearchPath("."),
-                .headerSearchPath("ReactiveObjC/extobjc"),
                 .define("DTRACE_PROBES_DISABLED", to: "1"),
             ]
         ),
